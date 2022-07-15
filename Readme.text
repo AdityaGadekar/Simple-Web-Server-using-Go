@@ -1,0 +1,11 @@
+#Here we created the simple web server form using Golang and HTML
+
+1  First we create a directory within our project called Form/ which will contain all of our website’s static files.
+-Form
+    -Form.HTML
+
+2 Create a server.go file for web server
+ Here we define http.Handle() passing in our path and http.Dir() which points to our newly created Form/ directory.
+
+3 Run cmd "go run server.go"
+Checking web server at http://localhost:5000
